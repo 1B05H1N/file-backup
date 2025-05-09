@@ -1,4 +1,4 @@
-# Universal Flat-File Backup
+# Flat-File Backup
 
 A cross-platform, highly configurable toolkit for backing up any flat/text file type. Includes robust, feature-rich backup scripts in **Python**, **PowerShell**, and **Bash**—all with recursive subfolder support, pattern-based ignore, binary detection, and YAML/JSON config.
 
