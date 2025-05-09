@@ -1,0 +1,17 @@
+# Sample config.yaml for the PowerShell backup script
+# Uncomment and edit the values as needed
+
+SourceFolder: ./source
+BackupFolder: ./backup
+FileExtensions:
+  - .txt
+  - .csv
+  - .log
+IgnoreFiles:
+  - ignoreme.txt
+  - skip.csv
+IgnorePatterns:
+  - '*.bak'
+  - 'temp*'
+  - '*~'
+MaxZips: 20 

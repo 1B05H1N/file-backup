@@ -1,0 +1,28 @@
+# Sample config.yaml for the Python/PowerShell backup scripts
+# Uncomment and edit the values as needed
+
+# Source folder to back up
+source_folder: ./source
+
+# Destination/backup folder
+backup_folder: ./backup
+
+# File extensions to include (list, e.g., [".txt", ".csv", ".log"])
+file_extensions:
+  - .txt
+  - .csv
+  - .log
+
+# File names to ignore (list, e.g., ["ignoreme.txt", "skip.csv"])
+ignore_files:
+  - ignoreme.txt
+  - skip.csv
+
+# Wildcard patterns to ignore (list, e.g., ["*.bak", "temp*", "*~"])
+ignore_patterns:
+  - '*.bak'
+  - 'temp*'
+  - '*~'
+
+# Maximum number of zip archives to keep
+max_zips: 20 

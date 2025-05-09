@@ -1,0 +1,17 @@
+# Sample config.yaml for the Bash backup script
+# Uncomment and edit the values as needed
+
+source_folder: ./source
+backup_folder: ./backup
+file_extensions:
+  - .txt
+  - .csv
+  - .log
+ignore_files:
+  - ignoreme.txt
+  - skip.csv
+ignore_patterns:
+  - '*.bak'
+  - 'temp*'
+  - '*~'
+max_zips: 20 

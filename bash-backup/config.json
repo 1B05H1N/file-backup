@@ -1,0 +1,8 @@
+{
+  "source_folder": "./source",
+  "backup_folder": "./backup",
+  "file_extensions": [".txt", ".csv", ".log"],
+  "ignore_files": ["ignoreme.txt", "skip.csv"],
+  "ignore_patterns": ["*.bak", "temp*", "*~"],
+  "max_zips": 20
+} 
